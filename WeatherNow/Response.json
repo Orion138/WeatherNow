@@ -1,0 +1,42 @@
+{
+    "coord": {
+        "lon": -90.49,
+        "lat": 38.49
+    },
+    "weather": [
+                {
+                "id": 800,
+                "main": "Clear",
+                "description": "clear sky",
+                "icon": "01d"
+                }
+                ],
+    "base": "stations",
+    "main": {
+        "temp": 283.48,
+        "pressure": 1019,
+        "humidity": 57,
+        "temp_min": 282.15,
+        "temp_max": 285.15
+    },
+    "visibility": 16093,
+    "wind": {
+        "speed": 2.6,
+        "deg": 10
+    },
+    "clouds": {
+        "all": 1
+    },
+    "dt": 1456073880,
+    "sys": {
+        "type": 1,
+        "id": 1663,
+        "message": 0.0321,
+        "country": "US",
+        "sunrise": 1456058680,
+        "sunset": 1456098414
+    },
+    "id": 4399914,
+    "name": "Murphy",
+    "cod": 200
+}
