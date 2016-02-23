@@ -10,11 +10,11 @@
 		2E37940D1C7A402C0031B807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E37940C1C7A402C0031B807 /* AppDelegate.swift */; };
 		2E37940F1C7A402C0031B807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E37940E1C7A402C0031B807 /* ViewController.swift */; };
 		2E3794121C7A402C0031B807 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3794101C7A402C0031B807 /* Main.storyboard */; };
-		2E3794141C7A402C0031B807 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E3794131C7A402C0031B807 /* Assets.xcassets */; };
 		2E3794171C7A402C0031B807 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E3794151C7A402C0031B807 /* LaunchScreen.storyboard */; };
 		2E3794231C7A41C90031B807 /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3794221C7A41C90031B807 /* Weather.swift */; };
 		2E3794251C7A422A0031B807 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E3794241C7A422A0031B807 /* Constants.swift */; };
 		2E3794271C7A42F50031B807 /* Response.json in Resources */ = {isa = PBXBuildFile; fileRef = 2E3794261C7A42F50031B807 /* Response.json */; };
+		2EB8C05D1C7BEB8B0015DC19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EB8C05C1C7BEB8B0015DC19 /* Assets.xcassets */; };
 		E34D2842492719A801588B28 /* Pods_WeatherNow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923BB203C693D9C28AC046D8 /* Pods_WeatherNow.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,12 +25,12 @@
 		2E37940C1C7A402C0031B807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E37940E1C7A402C0031B807 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2E3794111C7A402C0031B807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2E3794131C7A402C0031B807 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E3794161C7A402C0031B807 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E3794181C7A402C0031B807 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2E3794221C7A41C90031B807 /* Weather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		2E3794241C7A422A0031B807 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2E3794261C7A42F50031B807 /* Response.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Response.json; sourceTree = "<group>"; };
+		2EB8C05C1C7BEB8B0015DC19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		923BB203C693D9C28AC046D8 /* Pods_WeatherNow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WeatherNow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -104,8 +104,8 @@
 				2E08CEB11C7B82CD003AC496 /* View */,
 				2E08CEB01C7B82C2003AC496 /* Model */,
 				2E37940C1C7A402C0031B807 /* AppDelegate.swift */,
-				2E3794131C7A402C0031B807 /* Assets.xcassets */,
 				2E3794151C7A402C0031B807 /* LaunchScreen.storyboard */,
+				2EB8C05C1C7BEB8B0015DC19 /* Assets.xcassets */,
 				2E3794261C7A42F50031B807 /* Response.json */,
 				2E3794181C7A402C0031B807 /* Info.plist */,
 			);
@@ -192,7 +192,7 @@
 			files = (
 				2E3794271C7A42F50031B807 /* Response.json in Resources */,
 				2E3794171C7A402C0031B807 /* LaunchScreen.storyboard in Resources */,
-				2E3794141C7A402C0031B807 /* Assets.xcassets in Resources */,
+				2EB8C05D1C7BEB8B0015DC19 /* Assets.xcassets in Resources */,
 				2E3794121C7A402C0031B807 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
